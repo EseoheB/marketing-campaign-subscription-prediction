@@ -2,7 +2,6 @@
 
 Predicting which customers will subscribe to a magazine, using logistic regression and a Support Vector Machine (SVM) in Python.
 
-Course project for ALY6020: Predictive Analytics, Master of Professional Studies in Analytics, Northeastern University (Vancouver).
 
 ## The problem
 
