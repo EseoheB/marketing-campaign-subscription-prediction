@@ -2,7 +2,6 @@
 
 Predicting which customers will subscribe to a magazine, using logistic regression and a Support Vector Machine (SVM) in Python.
 
-
 ## The problem
 
 A magazine company saw subscriptions drop last year, even though people were spending more time at home and were expected to read more. The goal was to use customer data to understand what is and isn't working, and to predict who is likely to subscribe.
@@ -11,7 +10,9 @@ Only 14.9% of customers in the dataset subscribed. A model that simply guesses "
 
 ## Data
 
-- Source file: `marketing_campaign.xlsx` (provided by the course, not included in this repository)
+- Source file: `marketing_campaign.xlsx` (included in this repository)
+- Original source: [Customer Personality Analysis](https://www.kaggle.com/datasets/imakash3011/customer-personality-analysis) dataset on Kaggle (imakash3011)
+- 2,240 customers and 29 columns
 - Customer demographic and purchase behavior features
 - Target: whether the customer subscribed (heavily imbalanced, 14.9% yes)
 
@@ -71,12 +72,13 @@ Python, pandas, NumPy, scikit-learn, matplotlib, seaborn, Google Colab
 ## Repository contents
 
 - `marketing_campaign_prediction.ipynb`: full notebook with cleaning, feature engineering, modeling, and evaluation
+- `marketing_campaign.xlsx`: dataset used in the analysis
 - `README.md`: project overview
 
 ## How to run
 
 1. Open the notebook in Google Colab or Jupyter.
-2. Place your copy of `marketing_campaign.xlsx` in the same folder, or update the `file_path` variable to point to it.
+2. Keep `marketing_campaign.xlsx` in the same folder as the notebook, or update the `file_path` variable to point to it.
 3. Run all cells from top to bottom.
 
 ## Author
